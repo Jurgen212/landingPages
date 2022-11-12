@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora en JavaScript</title>
+    <link type="text/css" href="estilo.css" rel="stylesheet" />
+  </head>
+  <body onload="init();">
+    <table class="calculadora">
+      <tr>
+        <td colspan="4"><span id="resultado"></span></td>
+      </tr>
+      <tr>
+        <td><button id="siete">7</button></td>
+        <td><button id="ocho">8</button></td>
+        <td><button id="nueve">9</button></td>
+        <td><button id="division">/</button></td>
+      </tr>
+      <tr>
+        <td><button id="cuatro">4</button></td>
+        <td><button id="cinco">5</button></td>
+        <td><button id="seis">6</button></td>
+        <td><button id="multiplicacion">*</button></td>
+      </tr>
+      <tr>
+        <td><button id="uno">1</button></td>
+        <td><button id="dos">2</button></td>
+        <td><button id="tres">3</button></td>
+        <td><button id="resta">-</button></td>
+      </tr>
+      <tr>
+        <td><button id="igual">=</button></td>
+        <td><button id="reset">C</button></td>
+        <td><button id="cero">0</button></td>
+        <td><button id="suma">+</button></td>
+      </tr>
+
+      <tr id="funcionalidades-2">
+        <td><button id="factorial">!</button></td>
+        <td><button id="fibonacci">fibonacci</button></td>
+      </tr>
+      <tr>
+        <td><button id="modo-hexadecimal">Modo Hexadecimal y Binario</button></td>
+        <td><button id="modo-octal">Modo Octal</button></td>
+        
+      </tr>
+      <tr id="letras">
+        <td><button id="a">A</button></td>
+        <td><button id="b">B</button></td>
+        <td><button id="c">C</button></td>
+        <td><button id="d">D</button></td>
+        <td><button id="e">E</button></td>
+        <td><button id="f">F</button></td>
+      </tr>
+      <tr id="especial">
+        <td><button id="s-hexa">Suma hexadecimal</button></td>
+        <td><button id="r-hexa">Resta hexadecimal</button></td>
+        <td><button id="m-hexa">Multiplicacion hexadecimal</button></td>
+        <td><button id="d-hexa">Division hexadecimal</button></td>
+      </tr>
+
+      <tr id="especial-bin">
+        <td><button id="s-bi">Suma en Binarios</button></td>
+        <td><button id="r-bi">Resta en Binarios</button></td>
+        <td><button id="m-bi">Multiplicacion en Binarios</button></td>
+        <td><button id="d-bi">Division en Binarios</button></td>
+      </tr>
+
+      <tr id="especial-oct">
+        <td><button id="s-oct">Suma Octal</button></td>
+        <td><button id="r-oct">Resta Octal</button></td>
+        <td><button id="m-oct">Multiplicacion Octal</button></td>
+        <td><button id="d-oct">Division Octal</button></td>
+      </tr>
+
+      <tr>
+        <td><button id="media">Media de 2 numeros</button></td>
+        <td><button id="desviacion">Desviacion estandar poblacional</button></td>
+        <td><button id="varianza">Varianza poblacional</button></td>
+        <td><button id="sorpresa">sorpresa</button></td>
+      </tr>
+
+      <tr>
+        <td colspan="4"></td>
+      </tr>
+    </table>
+
+    <script src="funcionalidad.js"></script>
+  </body>
+</html>

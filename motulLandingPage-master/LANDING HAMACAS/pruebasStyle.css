@@ -1,0 +1,105 @@
+/* Stylesheet created by Jurgen Sanclemente */
+
+table{
+    background-repeat: no-repeat;
+}
+h3{
+	margin-top: 50px;
+}
+
+
+/* .space_td_top deletes the space between the img and the text for mobile devices */
+.space_td_top{
+	display: none;
+}
+
+.last-info{
+	text-align: center;
+}
+
+
+.bold-participar{
+	font-weight: bold;
+	color: red;
+}
+/* Mobile device */
+
+@media only screen and ( max-width: 890px ){
+
+	 body{
+		min-width: 100vw;
+		min-height: 100vh;
+	 }
+
+	table{
+		width: 100%;
+        background: none;
+	}
+
+
+	/* .space_td_top deletes the space between the img and the text for mobile devices */
+	.space_td_top{
+		display: none;
+	}
+
+	h3{
+		margin-top: 10px;
+	}
+
+	#mobile_top_img{
+		display: block;
+		width: 100%;
+	}
+
+	#mobile_botton_img{
+		width: 100%;
+
+		display: block;
+		position: relative;	
+		bottom: 0px;
+	}
+
+
+
+	body, td, th, form, input, textarea, select , ul, li, span {
+		font-size: 16px;
+	}
+	
+}
+
+
+/* Other device */
+
+/* Mobile device */
+
+@media only screen and ( min-width: 890px ){
+
+	table{
+		width: 720px;
+        background: none;
+	}	
+
+
+	div{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	h3{
+		margin-top: 10px;
+	}
+
+	#mobile_top_img{
+		display: block;
+		width: 850px;
+	}
+
+	#mobile_botton_img{
+		width: 850px;
+
+		display: block;
+		position: absolute;	
+	}
+
+	
+}
